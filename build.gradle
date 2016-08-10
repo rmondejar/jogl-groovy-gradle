@@ -1,7 +1,7 @@
 apply plugin: 'groovy'
 apply plugin: "application"
 
-mainClassName = "jogl.swing.OneTriangleMain"
+mainClassName = "jogl.swing.GearsMain"
 
 repositories {
     mavenCentral()
