@@ -1,13 +1,16 @@
-apply plugin: "java"
+apply plugin: 'groovy'
 apply plugin: "application"
 
-mainClassName = "ben.Main"
+mainClassName = "jogl.swing.OneTriangleMain"
 
 repositories {
+    mavenCentral()
     jcenter()
 }
 
 dependencies {
+    compile 'org.codehaus.groovy:groovy-all:2.4.7'
+
     compile "org.jogamp.gluegen:gluegen-rt:2.3.1"
     compile "org.jogamp.jogl:jogl-all:2.3.1"
 
